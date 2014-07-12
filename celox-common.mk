@@ -43,7 +43,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += qrngd
 
 # Bootanimation
-PRODUCT_BOOTANIMATION := vendor/cm/prebuilt/common/bootanimation/480.zip
+PRODUCT_BOOTANIMATION := vendor/du/bootanimations/bootanimation_480_800.zip
 
 # common msm8660
 $(call inherit-product, device/samsung/msm8660-common/msm8660.mk)
